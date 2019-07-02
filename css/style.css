@@ -50,3 +50,14 @@ btn a:hover {
 .active {
     background-color: #23272a;
 }
+
+.w3-container {
+    position:absolute; 
+    left:20px; 
+    top:75px; 
+    background-color:#99AAB5; 
+    color:white; 
+    width:500px; 
+    border-radius:3px; 
+    padding:10px 10px;
+}
