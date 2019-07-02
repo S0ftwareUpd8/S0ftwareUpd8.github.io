@@ -7,7 +7,45 @@
 body {
     font-family: "whitney";
     font-size: 15px;
-    color: white;
-    background-color: #2C2F33;
+    background-color: #2c2f33;
     outline: none;
+}
+
+ttl {
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 3px;
+    padding-right: 13px;
+    color: white;
+}
+
+topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+btn {
+    float: left;
+}
+
+btn a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 4px 12px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+btn a:hover {
+    background-color: #7289DA;
+}
+
+.active {
+    background-color: #23272a;
 }
