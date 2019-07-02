@@ -6,5 +6,8 @@
 
 body {
     font-family: "whitney";
+    font-size: 15px;
+    color: white;
     background-color: #2C2F33;
+    outline: none;
 }
